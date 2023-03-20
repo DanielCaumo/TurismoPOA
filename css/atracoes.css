@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.atracoes {
+  background: linear-gradient(180deg, rgba(180,215,236,1) 0%, rgba(215,221,219,1) 18%, rgba(209,220,221,1) 25%, rgba(138,172,205,1) 78%, rgba(147,180,212,1) 100%);
+  position: relative;
+}
+
+.filtro-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 10px;
+    margin: auto;
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem 2rem 1rem;
+  }
+  
+  .filtro {
+    font-family: 'Bebas Neue', cursive;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 1px solid var(--amarela);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .filtro:hover {
+    background-color: var(--amarelo);
+  }
+  
+  .card-filtro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--branco);
+  }
+
+  .card__titulo-container {
+    display: flex;
+    background-color: var(--amarelo);
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .card__texto-container {
+    padding: 20px 20px;;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 400px;
+}
+
+.card__imagem-container {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card__titulo {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+  color: var(--marrom);
+  padding: 1rem;  
+  text-align: center;
+}
+
+.card__info-horario {
+    padding-bottom: 10px;
+    line-height: 1.2rem;
+}
+
+.card__paragrafo {
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+  .show {
+    display: block;
+  }
+  
+  .remove {
+    display: none;
+  }
+
+@media(min-width: 801px){
+    .filtro {
+        padding: 1rem 3rem;
+        border: 1px solid var(--amarela);
+        margin: 0 5px;
+        font-size: 1.5rem;
+      }
+
+    .container {
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-rows: repeat(auto, 800px);
+        gap: 40px;
+      }
+
+    .card-filtro {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-size: 3rem;
+      max-width: 600px;
+    }
+
+    .card__imagem-container {
+      width: 100%;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .card__titulo-container {
+    background-color: (--azul);
+  }
+
+  .show {
+    display: block;
+  }
+  
+  .remove {
+    display: none;
+  }
+}
+
+
+#quintana {background-image: url('../img/atracoes/quintana1.webp');}
+#museu-puc {background-image: url('../img/atracoes/puc1.jpg');}
+#ibere {background-image: url('../img/atracoes/ibere2.jpg');}
+#embarcadero {background-image: url('../img/atracoes/embarcadero.jpg');}
+#orlamoacyrscliar {background-image: url('../img/atracoes/jaimelerner.jpg');}
+#brique {background-image: url('../img/atracoes/brique.webp');}
+#margs {background-image: url('../img/atracoes/margs2.jpg');}
+#acorianos {background-image: url('../img/atracoes/acorianos.jpg');}
+#lacador {background-image: url('../img/atracoes/lacador.jpg');}
+#farroupilha {background-image: url('../img/atracoes/redencao1.jpg');}
+#orla {background-image: url('../img/atracoes/orla.jpg');}
+#parcao {background-image: url('../img/atracoes/moinhos.jpg');}
+#julio {background-image: url('../img/atracoes/julio.jpg');}
+#mercado {background-image: url('../img/atracoes/mercado.jpg');}

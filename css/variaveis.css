@@ -1,0 +1,65 @@
+:root {
+    --azul: #86BAF3;
+    --amarelo: #E9D28E;
+    --marrom: #73613F;
+    --branco: #F8F8F8;
+}
+
+//Fontes
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+//Referencias
+//font-family: 'Bebas Neue', cursive;
+//font-family: 'Open Sans', sans-serif;
+
+h1 {
+    position: fixed; 
+    padding-top: 16vw;
+    text-shadow: -2px 1px 2px var(--marrom);
+    font-size: 15vw;
+    z-index: 0;
+    color: var(--marrom);
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: var(--amarelo);
+    text-align: center;
+    text-shadow: -2px 1px 2px var(--marrom);
+    padding: 80px 0;
+}
+
+h3 {
+    font-family: 'Bebas Neue','Open Sans', cursive;
+    font-size: 1.2rem;
+    color: var(--marrom);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+@media(min-width: 801px) {
+    h2 {
+        font-size: 150px;
+    }
+}
+
+@media(min-width: 1600px) {
+    h1 {
+        padding-top: 250px;
+        font-size: 240px;
+    }
+}
+
+//Breakpoints
+//@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+//@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
+//@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+//@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+//@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+//@media (min-width:1281px) { /* hi-res laptops and desktops */ }

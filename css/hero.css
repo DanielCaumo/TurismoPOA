@@ -1,0 +1,42 @@
+
+.hero {
+    background: rgb(180,215,236);
+    background: linear-gradient(180deg, rgba(180,215,236,1) 0%, rgba(215,221,219,1) 18%, rgba(209,220,221,1) 25%, rgba(138,172,205,1) 78%, rgba(147,180,212,1) 100%);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    padding-top: 4rem;
+    z-index: 2;
+}
+
+.titulo {
+    position: fixed; 
+    padding-top: 16vw;
+    text-shadow: -2px 1px 2px var(--marrom);
+    font-size: 15vw;
+    z-index: 0;
+    color: #E9D28E;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@media(min-width: 1600px){
+    .hero-img {
+        width: 1600px;
+    }
+    .titulo {
+        padding-top: 250px;
+        font-size: 240px;
+    }
+}
+
+.none {
+    display: none;
+}

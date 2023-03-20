@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visite Porto ALegre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="navbar" id="inicio">
+        <ul>
+          <li><a href="#">início</a></li>
+          <li><a href="#sobre">sobre</a></li>
+          <li><a href="#atracoes">atrações</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="hero">
+      <h1 class="titulo">Porto Alegre</h1>
+      <img src="img/hero.png" class="hero-img" />
+    </section>
+    <section class="sobre" id="sobre">
+      <div class="sobre__container">
+        <h2 class="subtitulo">Sobre</h2>
+        <div class="textos">
+          <p class="sobre__texto hifenizar">
+            Bem-vindo a Porto Alegre, a capital do Rio Grande do Sul e uma das cidades mais charmosas do Brasil! Localizada na região sul do país, Porto Alegre é famosa por sua cultura vibrante, gastronomia única e pessoas acolhedoras.</br></br>
+            Ao caminhar pelas ruas da cidade, você poderá apreciar sua arquitetura histórica e moderna, desde prédios coloniais até edifícios contemporâneos. Não deixe de visitar o Mercado Público, um dos principais pontos turísticos da cidade, onde você poderá experimentar as deliciosas iguarias da culinária gaúcha, como churrasco, chimarrão e queijos artesanais.
+          </p>
+          <p class="sobre__texto hifenizar">
+            Além disso, Porto Alegre é rica em cultura, com diversas opções de museus, teatros e galerias de arte. O MARGS (Museu de Arte do Rio Grande do Sul) é um dos mais importantes da cidade, com uma coleção de obras de artistas gaúchos e brasileiros renomados.</br></br>
+            Por fim, não deixe de aproveitar o pôr do sol no famoso Parque da Redenção, um dos maiores e mais bonitos da cidade. Lá você pode fazer uma caminhada, andar de bicicleta, praticar esportes ou simplesmente relaxar em um ambiente tranquilo e natural.</br></br>
+            Porto Alegre é um destino imperdível para quem quer conhecer a cultura e a história do sul do Brasil, experimentar sua deliciosa gastronomia e aproveitar a hospitalidade de seu povo.
+            para contar.
+          </p>
+        </div>
+      </div>
+    </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220895.34554529784!2d-51.31722720082176!3d-30.108795734115713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199cd2566acb1d%3A0x603111a89f87e91f!2sPorto%20Alegre%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1679329351695!5m2!1spt-BR!2sbr" allowfullscreen="" frameboarder="0" class="mapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <section class="atracoes" id="atracoes">
+    <h2 class="subtitulo">Atrações</h2>
+    <div class="filtro-container">
+      <button class="filtro mostrar-tudo">mostrar tudo</button> <button class="filtro monumentos">monumentos</button> <button class="filtro cultura">cultura</button> <button class="filtro gastronomia">gastronomia</button> <button class="filtro parque">parques</button>
+    </div>
+    <div class="container">
+      <div class="card-filtro" id="cultura" data-cultura="cultura">
+        <div class="card__imagem-container" id="quintana"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">CASA DE CULTURA MARIO QUINTANA</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Rua dos Andradas, 736 - Centro Histórico</p>
+          <p class="card__info-horario">Quando: Terça a Domingo, das 10h às 20h</p>
+          <p class="card__paragrafo">É um é um importante centro cultural localizado na cidade de Porto Alegre, no estado do Rio Grande do Sul, Brasil. O edifício, em estilo art déco, que antes era um hotel, foi reformado e transformado em um espaço cultural em homenagem ao poeta e escritor Mario Quintana.</p>
+          <p class="card__paragrafo">A Casa de Cultura promove diversas atividades culturais, como exposições de arte, apresentações teatrais, musicais e de dança, além de oficinas e cursos. Há também uma biblioteca, um cinema, um café e uma loja de souvenirs. A CCMQ está no coração cultural da cidade, próximo ao MARGS, Theatro São Pedro e Usina da Gasômetro e é um lugar ideal para mergulhar na cultura e história da cidade.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="cultura" data-cultura="cultura">
+        <div class="card__imagem-container" id="margs"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">MUSEU DE ARTE DO RIO GRANDE DO SUL</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Praça da Alfândega, s/n - Centro Histórico</p>
+          <p class="card__info-horario">Quando: Terça a Domingo, das 10h às 19h</p>
+          <p class="card__paragrafo">Fundado em 1954, o MARGS abriga uma coleção de arte contemporânea e moderna de artistas brasileiros e internacionais. São mais de 4 mil obras que incluem pinturas, esculturas, fotografias e instalações. O prédio é um atrativo à parte, construído em estilo neoclássico é considerado um dos mais belos da cidade. O MARGS também oferece exposições temporárias, palestras, cursos e atividades culturais para todos os públicos.</p>
+          <p class="card__paragrafo">Localizado na Praça da Alfândega, o museu é uma visita obrigatória e já abrigou exposições de alguns dos artistas de maior relevância nacional e internacional, além de ser uma das principais sedes da Bienal do Mercosul.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="cultura" data-cultura="cultura">
+        <div class="card__imagem-container" id="ibere"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">FUNDAÇÃO IBERÊ CAMARGO</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Av. Padre Cacique, 2000 - Cristal</p>
+          <p class="card__info-horario">Quando: Quinta a Domingo, das 14h às 18h</p>
+          <p class="card__paragrafo">A Fundação Iberê Camargo é um espaço cultural localizado em Porto Alegre, no estado do Rio Grande do Sul, Brasil. O prédio é uma obra arquitetônica premiada (venceu o Troféu Leão de Ouro da 8ª Bienal de Arquitetura de Veneza) projetada pelo renomado arquiteto português Álvaro Siza Vieira.</p>
+          <p class="card__paragrafo">O local é dedicada ao trabalho do artista gaúcho Iberê Camargo e abriga uma grande coleção de suas obras, incluindo pinturas, gravuras e desenhos. Além disso, o espaço também oferece exposições temporárias de outros artistas contemporâneos, e oferece algumas das mais belas vistas da cidade, ponto ideal para ver o pôr do sol.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="cultura" data-cultura="cultura">
+        <div class="card__imagem-container" id="museu-puc"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">MUSEU DE CIÊNCIAS E TECNOLOGIA DA PUCRS</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Av. Ipiranga, 6681 - Partenon</p>
+          <p class="card__info-horario">Quando: Terça a Sexta, das 9h às 17h /<br>
+          Sábado e Domingo, das 10h às 18h</p>
+          <p class="card__paragrafo">O Museu de Ciências e Tecnologia da PUCRS um dos museus interativos de ciências naturais de destaque na América Latina, com atividades para todas as idades e áreas de experimento-atrações sobre o Universo, a Terra, Meio ambiente e o Homem, dentre outros.</p>
+          <p class="card__paragrafo">A área de exposição permanente ao público conta com cerca de 700 experimentos interativos, cobrindo inúmeras áreas do conhecimento. O próprio visitante pode participar das experiências que resultaram no atual conhecimento científico. O acervo permanente inclui 5 milhões de peças.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="monumentos" data-monumentos="monumentos">
+        <div class="card__imagem-container" id="acorianos"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">MONUMENTO AOS AÇORIANOS</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Av. Loureiro da Silva, 1155 - Cidade Baixa</p>
+          <p class="card__info-horario">Quando: 24 horas / 7 dias</p>
+          <p class="card__paragrafo">O Monumento aos Açorianos é uma obra de arte pública localizada em em homenagem à chegada, em 1752, dos primeiros sessenta casais açorianos que povoaram a cidade. A obra do escultor Carlos Tenius possui 17 m de altura por 24 m de comprimento em aço e lembra uma caravela, composta de corpos humanos entrelaçados, e tendo à frente uma figura alada que lembra o mitológico Ícaro e representa a Vitória.</p>
+          <p class="card__paragrafo">No monumento existe o seguinte escrito: "Jamais sonhariam aqueles casais açorianos, que da semente que lançavam ao solo nasceria o esplendor desta cidade."</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="monumentos" data-monumentos="monumentos">
+        <div class="card__imagem-container" id="lacador"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">ESTÁTUA DO LAÇADOR</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Av. dos Estados, 1175 - São João</p>
+          <p class="card__info-horario">Quando: 24 horas / 7 dias</p>
+          <p class="card__paragrafo">O Laçador, um dos cartões postais mais conhecidos da cidade, representa um gaúcho pilchado, vestindo trajes típicos da região, com destaque para o chapéu de abas largas, a indumentária de couro e um laço na mão direita, pronto para efetuar um lance, técnica utilizada na lida com o gado.</p>
+          <p class="card__paragrafo">A escultura de 5 metros de altura foi criada pelo artista Antônio Caringi e inaugurada em 20 de setembro de 1958, como parte das comemorações da Semana Farroupilha, antes localizada próxima a Orla do Guaíba atualmente se encontra na Avenida do Estado próxima ao Aeroporto Internacional.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="gastronomia" data-gastronomia="gastronomia">
+        <div class="card__imagem-container" id="embarcadero"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">CAIS EMBARCADERO</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Av. Mauá, 1050 - Armazém A7 - Centro Histórico</p>
+          <p class="card__info-horario">Quando: Terça a Domingo, das 11h às 22h30</p>
+          <p class="card__paragrafo">O Cais Embarcadero está situado às margens do Lago Guaíba e oferece uma vista espetacular do lago, das ilhas e da orla da cidade. É um pólo gastronômico, oferecendo opções para todos os gostos.</p>
+          <p class="card__paragrafo">Uma das principais atrações do Cais Embarcadero é o passeio de barco, que permite ao visitante explorar o lago e suas ilhas. Os passeios são oferecidos por diversas empresas e geralmente duram cerca de duas horas. Além disso, o local conta com diversas atividades e eventos ao longo do ano, como shows, exposições e apresentações artísticas.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="parque" data-parque="parque">
+        <div class="card__imagem-container" id="farroupilha"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">PARQUE FARROUPILHA</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Av. João Pessoa, s / nº - Farroupilha</p>
+          <p class="card__info-horario">Quando: 24 horas / 7 dias</p>
+          <p class="card__paragrafo">O Parque Farroupilha, também conhecido como Parque da Redenção, é um dos mais famosos e populares parques da cidade. É um lugar de lazer e convívio para moradores locais e turistas, para fazer caminhadas, corridas, andar de bicicleta ou simplesmente relaxar em meio à natureza.</p>
+          <p class="card__paragrafo">O parque possui uma área verde extensa, com mais de 37 hectares, repleta de árvores, gramados, lagos, jardins temáticos, além de abrigar o Anfiteatro Araújo Viana, o Monumento ao Expedicionário e várias esculturas.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="parque" data-parque="parque">
+        <div class="card__imagem-container" id="orla"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">ORLA MOACYR SCLIAR</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Av. Edvaldo Pereira Paiva - Praia de Belas</p>
+          <p class="card__info-horario">Quando: 24 horas / 7 dias</p>
+          <p class="card__paragrafo">A Orla Moacyr Scliar é um espaço público às margens do rio Guaíba. A orla conta com cerca de 3,2 km de extensão e apresenta uma vista privilegiada do pôr do sol, além de contar com ciclovia, calçadão para caminhadas, áreas de lazer para crianças e adultos, bares e restaurantes.</p>
+          <p class="card__paragrafo">A Orla se apresenta como um hub turístico, nela está localizada a Usina do Gasômetro, Cais Embarcadero, além da proximidade de monumentos e locais de interesses, como o Parque Harmonia, onde acontece anualmente o Acampamento Farroupilha, o Monumento das Cuias, o Monumento aos Açorianos, o Anfiteatro Pôr-do-Sol e o Parque Marinha do Brasil.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="parque" data-parque="parque">
+        <div class="card__imagem-container" id="parcao"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">PARQUE MOINHOS DE VENTO</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: R. Comendador Caminha, s/n - Moinhos de Vento</p>
+          <p class="card__info-horario">Quando: 24 horas / 7 dias</p>
+          <p class="card__paragrafo">Também conhecido como "Parcão", o local é um ambiente agradável para caminhadas, corridas, piqueniques e outras atividades ao ar livre. Além disso, há diversas estruturas disponíveis para o público, como quadras de esporte, parquinhos infantis, pista de skate, espaço para exercícios físicos, quiosques para lanches e bebidas, banheiros e até uma biblioteca.</p>
+          <p class="card__paragrafo">O destaque do é o famoso lago, que abriga diversas espécies de aves, como cisnes e patos, e é um lugar ideal para observação da natureza e para passeios de barco a pedal. A escultura de moinho de vento e seu reflexo no lago formam um dos principais cartões postal da cidade.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="monumentos" data-monumentos="monumentos">
+        <div class="card__imagem-container" id="julio"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">MONUMENTO A JÚLIO DE CASTILHOS</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Local: Praça Mal. Deodoro, 4460 - Centro Histórico</p>
+          <p class="card__info-horario">Quando: 24 horas / 7 dias</p>
+          <p class="card__paragrafo">O Monumento a Júlio de Castilhos é uma das mais icônicas esculturas de Porto Alegre, localizado em uma praça com o mesmo nome, no coração da cidade, e é um monumento em homenagem a um dos mais importantes líderes políticos do estado.</p>
+          <p class="card__paragrafo">A escultura retrata Júlio de Castilhos em tamanho real, montado em um cavalo e segurando uma espada, como símbolo de liderança e poder. A base do monumento é ricamente ornamentada e conta com inscrições em latim, que homenageiam a figura de Castilhos e a história do Rio Grande do Sul.</p>
+        </div>
+      </div>
+      <div class="card-filtro" id="gastronomia" data-gastronomia="gastronomia">
+        <div class="card__imagem-container" id="mercado"></div>
+        <div class="card__titulo-container">
+          <h3 class="card__titulo">MERCADO PÚBLICO DE PORTO ALEGRE</h3>
+        </div>
+        <div class="card__texto-container">
+          <p class="card__info">Largo Jorn. Glênio Péres, 1 - Centro Histórico</p>
+          <p class="card__info-horario">Quando: Segunda a Sexta das 7h30 às 19h30/</br>
+          Sábado das 7h30 às 18h30</p>
+          <p class="card__paragrafo">O Mercado Público de Porto Alegre é uma das construções mais tradicionais da cidade, está em funcionamento desde 1869, e é parada obrigatória. Com mais de 100 lojas que vendem mais de 100 mil itens, incluindo produtos regionais e especiarias. </p>
+          <p class="card__paragrafo">O edifício também conta com restaurantes tradicionais,oferecendo cardápios exóticos, além da tradicional salada de frutas com sorvete.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

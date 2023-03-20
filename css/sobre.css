@@ -1,0 +1,45 @@
+.sobre {
+    position: relative;
+    background-color: var(--branco);
+    color: white;
+    padding: 2em 2em;
+    font-size: 1.5em;
+    z-index: 3;
+}
+
+.sobre div {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--marrom);
+}
+
+.sobre__texto {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.mapa {
+    width: 100vw;
+    height: 500px;
+    position: relative;
+}
+
+@media(min-width: 1201px){
+    .sobre {
+        padding: 2em 5em;
+    }
+
+    .textos {
+        flex-direction: row;
+        gap: 80px;
+    }
+    .sobre__texto {
+        width: calc(50% - 40px);
+    }
+}
